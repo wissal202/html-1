@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <fieldset>
+    <legend>formulair d'inscription</legend>
+    <label>Nom <input type="text" placeholder="saisir votre nom"></label><br>
+    <label>Prenom <input type="text" placeholder="saisir votre prenom"></label><br>
+    <label>Email <input type="email" placeholder="Saisir votre email"></label><br>
+    <label>Sexe  Masculin<input type="checkbox"> feminin<input type="checkbox"></label>
+    <label> Photo<input type="file"></label>
+    <label>Pays
+      <select>
+        <option>France</option>
+        <option>Maroc</option>
+        <option>Algerie</option>
+      </select>
+    </label>
+    <label>les languge preferer
+      <select multiple="multiple" size="4">
+        <option selected>Java</option>
+        <option selected>C</option>
+        <option selected>c++</option>
+        <option>PHP</option>
+      </select>
+    </label>
+    <br><label>Domaines d'activité Informatique  <input type="checkbox" checked>Gestion <input type="checkbox" name="Domaines"> Pedagogie <input type="checkbox"  name="Domaines"></label>
+    <br>
+
+    <input type="submit"value="envoyer">
+    <input type="reset" value="Annuler">
+
+  
+
+  </fieldset>
+
+  <style>
+    input
+    {
+      margin: 0.5rem 0;
+    }
+
+    label{
+      display: block;
+      margin: 0.5rem 0;
+    }
+  </style>
+</body>
+</html>
